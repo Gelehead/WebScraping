@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.rectangle {
+    width: 1800px;
+    height: 800px;
+    background: linear-gradient(to right, rgb(5, 224, 34), #4A97A9, #992F1D);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.cradle, .provinces, .hinterlands {
+    width: 33.33%;
+    height: 84%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 8%;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative; /* Added for positioning the region name */
+}
+
+.cradle .horizontal-rect:nth-child(4) {
+    border: transparent; /* Hide the third rectangle in the Cradle region */
+}
+
+.region-name {
+    position: absolute;
+    top: -30px; /* Adjust as needed */
+    left: 12%;
+
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.horizontal-rect {
+    width: 42%;
+    height: 20%;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 10%; /* Add space between the rectangles */
+}
