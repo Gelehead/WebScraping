@@ -30,8 +30,7 @@ As the second project, it was made way faster than the previous one, and I wante
 ### TODO
 whole game interface lmao
 
-#### author
-free thing lmao you could do this yourself in like 2 hours
-
-Socials here just in case
-=> [Gelehead](https://github.com/Gelehead)
+## Author
+free thing lmao you could do this yourself in like 2 hours. Socials here just in case :
+ - [Gelehead](https://github.com/Gelehead)
+ - [contact](https://www.linkedin.com/in/oscar-lavolet-097bb9329/)
